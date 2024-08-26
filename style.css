@@ -1,0 +1,77 @@
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+}
+
+.banner{
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fnew-zealand&psig=AOvVaw3YrQVWpe9m6iQnKxB3VCKk&ust=1724749724371000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIiV0sankogDFQAAAAAdAAAAABAE');
+  background-size: cover;
+  background-position: center;
+  color:cornsilk;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.banner-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.banner h1{
+  margin:0;
+  font-size: medium;
+}
+
+.banner p{
+  font-size: small;
+}
+
+.container{
+  max-width: 960px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+article h2{
+font-size: 2em;
+margin-bottom: 10px;
+}
+
+article p {
+font-size: 1.1em;
+margin-bottom: 20px;
+}
+
+article a {
+  color: #3498db;
+  text-decoration: none;
+  background-image: linear-gradient(to right, transparent 0%, transparent 50%, #3498db 50%, #3498db 100%);
+  background-size: 200% 100%;
+  background-position: 0 0;
+  transition: background-position 0.3s ease, color 0.3s ease;
+}
+
+article a:hover {
+  color: white;
+  background-position: -100% 0;
+  background-image: linear-gradient(to right, #2980b9 0%, #2980b9 50%, transparent 50%, transparent 100%);
+}
+
+@media (max-width: 960px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    max-width: 300px;
+  }
+}
